@@ -22,7 +22,7 @@
   <br />
 
   <div align="center">
-    <img src="https://img.shields.io/badge/-video_tutorial-black?style=for-the-badge&logoColor=white&logo=youtube&color=ff0000" alt="youtube video" />
+    <a href="https://youtu.be/QRrPE9aj3wI?feature=shared" target="_blank"><img src="https://img.shields.io/badge/-video_tutorial-black?style=for-the-badge&logoColor=white&logo=youtube&color=ff0000" alt="youtube video" /></a>
   </div>
 
   <br />
