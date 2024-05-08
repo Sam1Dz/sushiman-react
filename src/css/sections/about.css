@@ -9,19 +9,15 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-
   background: var(--color-white);
-
   position: relative;
 }
 
 .about-us__image div {
-  padding: 32px 64px;
-
+  padding: 2rem 4rem;
   flex: 1;
   display: flex;
   align-items: center;
-
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -29,12 +25,11 @@
 
 .about-us__image-sushi3 {
   border-bottom: 8px solid var(--color-creamson);
-
-  background-image: url("../../assets/about_bg1.png")
+  background-image: url('../../assets/about_bg1.png');
 }
 
 .about-us__image-sushi2 {
-  background-image: url("../../assets/about_bg2.png")
+  background-image: url('../../assets/about_bg2.png');
 }
 
 .about-us__image-sushi3 img {
@@ -50,32 +45,27 @@
 .about-us__button {
   position: absolute;
   right: 0;
-
-  padding: 12px 32px;
+  padding: 0.75rem 2rem;
   min-height: 64px;
-
   background: var(--secondary-color);
-  border-radius: 32px 0 0 32px;
+  border-radius: 2rem 0 0 2rem;
   border: 0;
   outline: 0;
-
   color: #fff;
   font-family: var(--plus-jakarta-sans);
   font-weight: 500;
   font-size: 18px;
   line-height: 23px;
-
   cursor: pointer;
 }
 
 .about-us__button img {
   object-fit: contain;
-  margin-left: 32px;
+  margin-left: 2rem;
 }
 
 .about-us__content {
-  padding: 64px;
-
+  padding: 4rem;
   flex: 1;
   display: flex;
   justify-content: center;
