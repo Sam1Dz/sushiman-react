@@ -20,7 +20,7 @@ export default function Header() {
         </div>
 
         <ul
-          className="p-5 flex flex-[1.236] items-center justify-end gap-16 list-none screen-900:hidden"
+          className="p-5 flex flex-[1.115] items-center justify-end gap-16 list-none screen-900:hidden"
           data-aos="fade-down"
         >
           {HeaderMenu.map((data, i) => (

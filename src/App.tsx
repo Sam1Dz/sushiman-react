@@ -6,12 +6,12 @@ import 'aos/dist/aos.css';
 
 // COMPONENTS
 import Header from './components/Header';
+import Hero from './components/Hero';
 
 // ICONS
 import StarIcon from './assets/star.svg';
 import CheckIcon from './assets/check.svg';
 import ArrowRightIcon from './assets/arrow-right.svg';
-import PlayCircleIcon from './assets/play-circle.svg';
 import ArrowUpRightIcon from './assets/arrow-up-right.svg';
 import ArrowVerticalIcon from './assets/arrow-vertical.svg';
 import ArrowHorizontalIcon from './assets/arrow-horizontal.svg';
@@ -22,7 +22,6 @@ import FacebookLogo from './assets/facebook.svg';
 import InstagramLogo from './assets/instagram.svg';
 
 // IMAGES
-import Sushi1 from './assets/sushi-1.png';
 import Sushi2 from './assets/sushi-2.png';
 import Sushi3 from './assets/sushi-3.png';
 import Sushi4 from './assets/sushi-4.png';
@@ -31,7 +30,6 @@ import Sushi6 from './assets/sushi-6.png';
 import Sushi7 from './assets/sushi-7.png';
 import Sushi8 from './assets/sushi-8.png';
 import Sushi9 from './assets/sushi-9.png';
-import UserImg from './assets/user.png';
 
 // DATA
 import { Cards, TrendingDrink, TrendingSushi } from './data';
@@ -47,54 +45,7 @@ function App() {
   return (
     <React.Fragment>
       <Header />
-
-      {/* HERO */}
-      <section className="hero">
-        <div className="hero-image">
-          <img src={Sushi1} alt="sushi" data-aos="fade-up" />
-          <h2 data-aos="fade-up">
-            日 <br />
-            本 <br />食
-          </h2>
-
-          <div className="hero-image__overlay"></div>
-        </div>
-
-        <div className="hero-content">
-          <div className="hero-content-info" data-aos="fade-left">
-            <h1>Feel the taste of Japanese food</h1>
-            <p>
-              Feel the taste of the most popular Japanese food from anywhere and
-              anytime.
-            </p>
-
-            <div className="hero-content__buttons">
-              <button className="hero-content__order-button">Order Now</button>
-              <button className="hero-content__play-button">
-                <img src={PlayCircleIcon} alt="play" />
-                How to Order
-              </button>
-            </div>
-          </div>
-
-          <div className="hero-content__testimonial" data-aos="fade-up">
-            <div className="hero-content__customer flex-center">
-              <h4>
-                24<span>k+</span>
-              </h4>
-              <p>Happy Customers</p>
-            </div>
-
-            <div className="hero-content__review">
-              <img src={UserImg} alt="user" />
-              <p>
-                &quot;This is the best Japanese food delivery service that ever
-                existed.&quot;
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+      <Hero />
 
       {/* ABOUT US */}
       <section className="about-us" id="about-us">
