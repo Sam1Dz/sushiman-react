@@ -4,12 +4,13 @@ import React from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
+// COMPONENTS
+import Header from './components/Header';
+
 // ICONS
 import StarIcon from './assets/star.svg';
 import CheckIcon from './assets/check.svg';
-import SearchIcon from './assets/search.svg';
 import ArrowRightIcon from './assets/arrow-right.svg';
-import SearchMenuIcon from './assets/menu.svg';
 import PlayCircleIcon from './assets/play-circle.svg';
 import ArrowUpRightIcon from './assets/arrow-up-right.svg';
 import ArrowVerticalIcon from './assets/arrow-vertical.svg';
@@ -45,38 +46,7 @@ function App() {
 
   return (
     <React.Fragment>
-      <header>
-        <nav className="header__nav">
-          <div className="header__logo">
-            <h4 data-aos="fade-down">Sushiman</h4>
-            <div className="header__logo-overlay"></div>
-          </div>
-
-          <ul className="header__menu" data-aos="fade-down">
-            <li>
-              <a href="#menu">Menu</a>
-            </li>
-            <li>
-              <a href="#food">Food</a>
-            </li>
-            <li>
-              <a href="#services">Services</a>
-            </li>
-            <li>
-              <a href="#about-us">About Us</a>
-            </li>
-            <li>
-              <img src={SearchIcon} alt="search" />
-            </li>
-          </ul>
-
-          <ul className="header__menu-mobile" data-aos="fade-down">
-            <li>
-              <img src={SearchMenuIcon} alt="menu" />
-            </li>
-          </ul>
-        </nav>
-      </header>
+      <Header />
 
       {/* HERO */}
       <section className="hero">

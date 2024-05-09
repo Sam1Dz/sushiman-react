@@ -163,28 +163,6 @@ a {
 }
 /* END: about us media queries */
 
-/* START: header media querie */
-@media screen and (max-width: 900px) {
-  .header__nav {
-    background: var(--primary-color);
-  }
-
-  .header__menu {
-    display: none;
-  }
-
-  .header__menu-mobile {
-    display: flex;
-  }
-}
-
-@media screen and (max-width: 550px) {
-  .header__logo {
-    padding-left: 0;
-  }
-}
-/* END: header media queries */
-
 /* START: hero media queries */
 @media screen and (max-width: 1060px) {
   .hero {
