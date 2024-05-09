@@ -7,12 +7,12 @@ import 'aos/dist/aos.css';
 // COMPONENTS
 import Header from './components/Header';
 import Hero from './components/Hero';
+import AboutUs from './components/AboutUs';
 
 // ICONS
 import StarIcon from './assets/star.svg';
 import CheckIcon from './assets/check.svg';
 import ArrowRightIcon from './assets/arrow-right.svg';
-import ArrowUpRightIcon from './assets/arrow-up-right.svg';
 import ArrowVerticalIcon from './assets/arrow-vertical.svg';
 import ArrowHorizontalIcon from './assets/arrow-horizontal.svg';
 
@@ -22,8 +22,6 @@ import FacebookLogo from './assets/facebook.svg';
 import InstagramLogo from './assets/instagram.svg';
 
 // IMAGES
-import Sushi2 from './assets/sushi-2.png';
-import Sushi3 from './assets/sushi-3.png';
 import Sushi4 from './assets/sushi-4.png';
 import Sushi5 from './assets/sushi-5.png';
 import Sushi6 from './assets/sushi-6.png';
@@ -46,36 +44,7 @@ function App() {
     <React.Fragment>
       <Header />
       <Hero />
-
-      {/* ABOUT US */}
-      <section className="about-us" id="about-us">
-        <div className="about-us__image">
-          <div className="about-us__image-sushi3">
-            <img src={Sushi3} alt="sushi" data-aos="fade-right" />
-          </div>
-
-          <button className="about-us__button">
-            Learn More
-            <img src={ArrowUpRightIcon} alt="learn more" />
-          </button>
-
-          <div className="about-us__image-sushi2">
-            <img src={Sushi2} alt="sushi" data-aos="fade-right" />
-          </div>
-        </div>
-
-        <div className="about-us__content" data-aos="fade-left">
-          <p className="sushi__subtitle">About Us / 私たちに関しては</p>
-          <h3 className="sushi__title">
-            Our mission is to bring true Japanese flavours to you.
-          </h3>
-          <p className="sushi__description">
-            We will continue to provide the experience of Omotenashi, the
-            Japanese mindset of hospitality, with our shopping and dining for
-            our customers.
-          </p>
-        </div>
-      </section>
+      <AboutUs />
 
       {/* POPULAR */}
       <section className="popular-foods" id="menu">

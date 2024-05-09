@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap');
 
-@import url('sections/about.css');
 @import url('sections/popular.css');
 @import url('sections/trending.css');
 @import url('sections/subscribe.css');
@@ -40,7 +39,7 @@
 body {
   max-width: 1280px;
   margin: 0 auto;
-  background-color: '#fff0de';
+  background-color: #fff0de;
 }
 
 a {
