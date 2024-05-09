@@ -9,8 +9,7 @@
     <img src="https://img.shields.io/badge/-vite_js-black?style=for-the-badge&logoColor=white&logo=vite&color=BD34FE" alt="vite" />
     <img src="https://img.shields.io/badge/-react_js-black?style=for-the-badge&logoColor=white&logo=react&color=00d8ff" alt="reactjs" />
     <img src="https://img.shields.io/badge/-typescript-black?style=for-the-badge&logoColor=white&logo=typescript&color=007ACC" alt="typescript" />
-    <img src="https://img.shields.io/badge/-css-black?style=for-the-badge&logoColor=white&logo=css3&color=0277BD" alt="css3" />
-    <!-- <img src="https://img.shields.io/badge/-tailwind_css-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=25BABD" alt="tailwind css" /> -->
+    <img src="https://img.shields.io/badge/-tailwind_css-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=25BABD" alt="tailwind css" />
   </div>
 
   <br />
@@ -28,7 +27,7 @@
   <br />
 
   <div align="center">
-    This repository is forked from <a href="https://github.com/adrianhajdin/project_html_css_website">https://github.com/adrianhajdin/project_html_css_website</a>, and i modify it to use ReactJS framwork with Typescript.
+    This repository is forked from <a href="https://github.com/adrianhajdin/project_html_css_website">https://github.com/adrianhajdin/project_html_css_website</a>, and i modify it to use ReactJS framework with Typescript and Tailwind CSS.
   </div>
 </div>
 
@@ -89,4 +88,4 @@ Even though this is a project that i followed from the tutorial, I felt like i w
 
 - ~~Convert Javascript code to Typescript~~
 - ~~Use React JS framework instead of HTML~~
-- Use Tailwind CSS, a modern CSS framework
+- Use Tailwind CSS, a modern CSS framework (In Progress)
