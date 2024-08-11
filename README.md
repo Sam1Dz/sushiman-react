@@ -2,7 +2,7 @@
   <h1 align="center">Sushiman</h3>
   
   <a href="https://youtu.be/QRrPE9aj3wI?feature=shared" target="_blank">
-    <img src="https://camo.githubusercontent.com/08ced5f3e2ad0bf344b5a736b9eb0e368bb8648a3327626a333ee827e5ef957b/68747470733a2f2f692e6962622e636f2f644278777732632f53757368692e706e67" alt="Project Banner">
+    <img src="https://private-user-images.githubusercontent.com/151519281/293458629-562e0f27-4b93-41cb-a63d-7c50940fc0ad.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjMzMDM5MjUsIm5iZiI6MTcyMzMwMzYyNSwicGF0aCI6Ii8xNTE1MTkyODEvMjkzNDU4NjI5LTU2MmUwZjI3LTRiOTMtNDFjYi1hNjNkLTdjNTA5NDBmYzBhZC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwODEwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDgxMFQxNTI3MDVaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1lYzZhMjUxODI5YWI0MTU1NzA0MmJjMGEyNmRjMjQ2M2MwNjBhZjIyZjZlN2NiZWE2OGNmOWY1OGVhOTFlNWY3JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.zsnhQ9MxUH2Y-PSWEH8HOteKtw9OmxJtZD9IVyTIzCQ" alt="Project Banner">
   </a>
 
   <div align="center">
