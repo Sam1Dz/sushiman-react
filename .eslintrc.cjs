@@ -17,6 +17,12 @@ module.exports = {
     ],
     'no-unused-vars': 'off',
     '@typescript-eslint/no-unused-vars': 'warn',
+    'react/react-in-jsx-scope': 'off',
     'react/no-unescaped-entities': 'warn',
+  },
+  settings: {
+    react: {
+      version: 'detect',
+    },
   },
 };
