@@ -2,15 +2,27 @@ import Sushi10 from '../assets/sushi-10.png';
 import Sushi11 from '../assets/sushi-11.png';
 import Sushi12 from '../assets/sushi-12.png';
 
-// Type Definition
-export type TCards = {
-  imgSrc: string;
-  alt: string;
-  title: string;
-  rating: string;
-  price: string;
-  active: boolean;
-};
+// TYPES
+import type { THeaderMenu, TCards } from './type';
+
+export const HeaderMenu: THeaderMenu[] = [
+  {
+    title: 'Menu',
+    href: '#menu',
+  },
+  {
+    title: 'Food',
+    href: '#food',
+  },
+  {
+    title: 'Services',
+    href: '#services',
+  },
+  {
+    title: 'About Us',
+    href: '#about-us',
+  },
+];
 
 export const TrendingSushi = [
   'Make Sushi',
