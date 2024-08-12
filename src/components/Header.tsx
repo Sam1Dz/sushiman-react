@@ -8,11 +8,11 @@ import { HeaderMenu } from '../data';
 export default function Header() {
   return (
     <header>
-      <nav className="flex overflow-hidden screen-900:bg-primary">
+      <nav className="flex overflow-hidden screen-1060:bg-primary">
         <div className="relative flex flex-1 p-5">
           <h4
             data-aos="fade-down"
-            className="pl-[30px] font-playfair_display text-2xl font-bold uppercase leading-none text-white opacity-80 screen-550:pl-0"
+            className="pl-8 font-playfair_display text-2xl font-bold uppercase leading-none text-white opacity-80 screen-550:pl-0"
           >
             Sushiman
           </h4>
@@ -21,7 +21,7 @@ export default function Header() {
 
         <ul
           data-aos="fade-down"
-          className="flex flex-[1.115] list-none items-center justify-end gap-16 p-5 screen-900:hidden"
+          className="flex flex-[1.235] list-none items-center justify-end gap-16 p-5 screen-1060:hidden"
         >
           {HeaderMenu.map((data, i) => (
             <li
@@ -42,7 +42,7 @@ export default function Header() {
         </ul>
 
         <ul
-          className="none relative list-none items-center justify-end gap-5 p-5 screen-900:flex"
+          className="relative hidden list-none items-center justify-end gap-5 p-5 screen-1060:flex"
           data-aos="fade-down"
         >
           <li>

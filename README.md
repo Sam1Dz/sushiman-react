@@ -28,7 +28,7 @@
   <br />
 
   <div align="center">
-    This repository is forked from <a href="https://github.com/adrianhajdin/project_html_css_website">https://github.com/adrianhajdin/project_html_css_website</a>, and i modify it to use ReactJS framwork with Typescript.
+    This repository is forked from <a href="https://github.com/adrianhajdin/project_html_css_website">https://github.com/adrianhajdin/project_html_css_website</a>, and i modify it to use ReactJS framwork with Typescript and Tailwind CSS
   </div>
 </div>
 

@@ -9,7 +9,7 @@ export default {
         'screen-750': { max: '750px' },
         'screen-900': { max: '900px' },
         'screen-1024': { max: '1024px' },
-        'screen-1060': { max: '1024px' },
+        'screen-1060': { max: '1060px' },
       },
       colors: {
         primary: {
